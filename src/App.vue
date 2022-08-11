@@ -31,7 +31,8 @@ const displayOutput = (): void =>{
 */
 
 const displayOutput = (): void =>{
-  const endPoint: string = 'http://localhost:5000/api/titanic'
+  //タイタニックAPIのURL
+  const endPoint: string = 'https://ancient-bastion-45067.herokuapp.com/api/titanic'
   const validationResult: boolean = validateRequestValues()
   if (validationResult === true){
     //axios.post(エンドポイント, リクエストボディ)でAPIを叩く
